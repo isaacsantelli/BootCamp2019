@@ -126,7 +126,3 @@ The computational methods lab sessions for the OSE Lab will usually be held from
 ## References
 
 * Humpherys, Jeffrey, "[Computational Labs for *Foundations of Applied Mathematics*](http://www.acme.byu.edu/2016-2017-materials/)" (2017).
-
-
-
-hello my name is isaac 
