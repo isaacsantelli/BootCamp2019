@@ -22,11 +22,11 @@ if __name__ == "__main__":
             roll = random.randint(1,6)
             if sum(numlist) > 6:
                 roll += random.randint(1,6)
+            print("Numbers Left: ", numlist)
+            print("Roll: ", roll)
             if not box.isvalid(roll, numlist):
                 print("Game Over Loser")
                 break
-            print("Numbers Left: ", numlist)
-            print("Roll: ", roll)
             while time.time() < finish:
                 print("Seconds Left:", round(finish - time.time()) )
                 inp = input("Numbers to Eliminate: ")
@@ -45,7 +45,7 @@ if __name__ == "__main__":
         if len(numlist) > 0:
             print("Sorry buddy ya snooze ya looze time ran out and you lost")
             print("Also this is like golf so points are bad :(")
-            print("You now have", sum(numlist), points)
+            print("You now have", sum(numlist), "points")
     else:
         print("Wrong Number of Arguments")
         quit()
